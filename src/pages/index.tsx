@@ -19,14 +19,14 @@ export default function Home() {
         <form className={styles.searchForm}>
           <div>
             <select className={styles.server}>
-              <option selected value="NA">NA</option>
-              <option value="EUW">EUW</option>
-              <option value="EUNE">EUNE</option>
-              <option value="KR">KR</option>
+              <option>NA</option>
+              <option>EUW</option>
+              <option>EUNE</option>
+              <option>KR</option>
             </select>
           </div>
           <div>
-            <input type="text" className={styles.searchSummoner} placeholder="Summoner Name" value="" />
+            <input type="text" className={styles.searchSummoner} placeholder="Summoner Name"/>
           </div>
           <button type="submit" className = {styles.searchButton}>Search</button>
         </form>
